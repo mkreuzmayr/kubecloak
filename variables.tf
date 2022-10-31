@@ -18,7 +18,7 @@ variable "keycloak_log_level" {
 
 variable "keycloak_namespace" {
   type    = string
-  default = "keycloak"
+  default = "auth"
 }
 
 variable "keycloak_replicas" {
