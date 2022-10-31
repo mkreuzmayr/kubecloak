@@ -94,7 +94,7 @@ resource "kubernetes_deployment" "keycloak" {
       spec {
         container {
           name  = local.app_name
-          image = "quay.io/keycloak/keycloak:19.0.1"
+          image = "quay.io/keycloak/keycloak:19.0.2"
           args  = ["start"]
 
           port {
